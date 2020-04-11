@@ -248,7 +248,7 @@ window.onload = function(){
     p5j.setup = function(){
       p5j.createCanvas(200,200); // 加入3d
       arrmovers[0]=new mover(5,5,2,3);
-      
+      arrmovers[1]=new mover(195,5,-3,2);
      
       
     }
@@ -262,6 +262,7 @@ window.onload = function(){
 // arrmovers[0].rule1();
 // arrmovers[0].rule2();
  arrmovers[0].update();
+  arrmovers[1].update();
 
       
 
