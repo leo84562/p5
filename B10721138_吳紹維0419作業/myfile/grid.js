@@ -96,7 +96,7 @@ var mapSketch = function(p5j){
                 fillOpacity: 0.0,
                 stroke: true, // 取消邊線
                 radius: 5000 // 強度 乘上大小單位為公尺
-            }).addTo(p5j.map).bindPopup(val.locationName+'當前溫度'+ JSON.stringify(ku.value)+'\n'+'  當前風速:'+ JSON.stringify(kg.value)+'公尺/秒');          
+            }).addTo(p5j.map).bindPopup(val.locationName+'溫度'+ JSON.stringify(ku.value)+'\n'+'  風速:'+ JSON.stringify(kg.value)+'公尺/秒');          
           });
 
           p5j.ibike.forEach((val)=>{
